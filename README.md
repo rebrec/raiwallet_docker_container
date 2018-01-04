@@ -2,7 +2,7 @@
 
 ## Goal
 
-Provide an easy way (not too hard) for GNU Linux users to run the (RaiBlocks)[https://raiblocks.net/]'s Wallet.
+Provide an easy way (not too hard) for GNU Linux users to run the [RaiBlocks](https://raiblocks.net/)'s Wallet.
 
 
 ## Prerequisite
@@ -16,7 +16,7 @@ The wallet will be executed within a docker container. For this reason, you will
 
 `sudo apt-get install docker.io`
 
-- If this doesn't works, pleas refer to the (official documentation of Docker)[https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/] to install it.
+- If this doesn't works, pleas refer to the [official documentation of Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/) to install it.
 
 
 ### Autorization for docker containers to connect to your X Server
