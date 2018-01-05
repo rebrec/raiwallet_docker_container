@@ -2,7 +2,8 @@
 
 . ./config.sh
 
-docker run -e DISPLAY=$DISPLAY \
+docker run -d \
+           -e DISPLAY=$DISPLAY \
            -e USER=$(id -u) \
            -e GROUP=$(id -g) \
            -v /tmp/.X11-unix/:/tmp/.X11-unix \
